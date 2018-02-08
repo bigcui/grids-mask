@@ -1,0 +1,19 @@
+{
+  "name": "grids-mask",
+  "version": "1.0.1",
+  "description": "按照commonJS语法规范，兼容node环境和webpack等构建工具c 栅格化ui 校验器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigcui/grids-mask.git"
+  },
+  "author": "cuihonglei <cuihonglei@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigcui/grids-mask/issues"
+  },
+  "homepage": "https://github.com/bigcui/grids-mask#readme"
+}
