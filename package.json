@@ -1,8 +1,8 @@
 {
   "name": "grids-mask",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "按照commonJS语法规范，兼容node环境和webpack等构建工具c 栅格化ui 校验器",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
