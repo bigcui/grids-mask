@@ -1,11 +1,17 @@
 {
   "name": "grids-mask",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "按照commonJS语法规范，兼容node环境和webpack等构建工具c 栅格化ui 校验器",
-  "main": "./index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "grids-mask栅格化图层"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bigcui/grids-mask.git"
