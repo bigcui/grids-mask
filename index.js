@@ -19,8 +19,7 @@
     }
     return '';
 };
-module.exports = function() {
-    
+function aridsMask() {
     let poi = [
         ['position: fixed'],
         ['top: 0'],
@@ -41,4 +40,7 @@ module.exports = function() {
         mask.style.cssText = poi.join(';');
     }
        
+}
+module.exports = {
+    make:aridsMask
 };

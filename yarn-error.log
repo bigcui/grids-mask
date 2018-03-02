@@ -1,0 +1,60 @@
+Arguments: 
+  /Users/baidu/.nvm/versions/node/v8.9.1/bin/node /Users/baidu/.nvm/versions/node/v8.9.1/bin/yarn publish
+
+PATH: 
+  /Users/baidu/.nvm/versions/node/v8.9.1/bin:/usr/local/opt/php71/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Applications/XAMPP/bin:/Applications/XAMPP/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/data/Android_Env/android-sdk-mac_x86/tools:/Users/baidu/bin/pig/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "grids-mask",
+    "version": "1.0.4",
+    "description": "按照commonJS语法规范，兼容node环境和webpack等构建工具c 栅格化ui 校验器",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "grids-mask栅格化图层"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bigcui/grids-mask.git"
+    },
+    "author": "cuihonglei <cuihonglei@163.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bigcui/grids-mask/issues"
+    },
+    "homepage": "https://github.com/bigcui/grids-mask#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://registry.npmjs.org/grids-mask: You cannot publish over the previously published versions: 1.0.4.
+      at Request.params.callback [as _callback] (/Users/baidu/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:62098:18)
+      at Request.self.callback (/Users/baidu/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:123085:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/Users/baidu/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:124068:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/Users/baidu/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:123988:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)

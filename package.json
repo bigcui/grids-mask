@@ -1,6 +1,6 @@
 {
   "name": "grids-mask",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "按照commonJS语法规范，兼容node环境和webpack等构建工具c 栅格化ui 校验器",
   "main": "index.js",
   "scripts": {
